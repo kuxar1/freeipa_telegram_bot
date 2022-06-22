@@ -13,3 +13,9 @@ DB_HOST=localhost
 IPA_SERVER='ipa.demo1.freeipa.org'
 IPA_ADMIN='admin'
 IPA_PASS='Secret123'
+
+MAIL_SERVER='smtp.gmail.com'
+MAIL_ACC='your_mail'
+MAIL_PASS='your_strong_password'
+
+QR_CODE_PATH='path_to_qr_code_img'
