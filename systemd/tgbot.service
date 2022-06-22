@@ -1,0 +1,14 @@
+[Unit]
+Description=FreeIPA telegram Bot
+After=network.target
+
+[Service]
+User=root
+Group=root
+Type=simple
+WorkingDirectory=/path_to_bot_dir/freeipa_telegram_bot
+ExecStart=/path_to_file/freeipa_telegram_bot/env/bin/python3.7 bot.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
